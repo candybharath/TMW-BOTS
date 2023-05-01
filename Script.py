@@ -244,8 +244,12 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
-    RESTART_TXT = """
-<b>{me.mention} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ !!\n\n📅 Dᴀᴛᴇ : <code>{date}</code>\n⏰ Tɪᴍᴇ : <code>{time}</code>\n🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>{TIMEZONE}</code>\n\n🉐 Vᴇʀsɪᴏɴ : <code>v{__version__} (Layer {layer})</code></b>"""
+    RESTART_TXT = """""
+<b>{me.mention} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ !!
+📅 Dᴀᴛᴇ : <code>{date}</code>
+⏰ Tɪᴍᴇ : <code>{time}</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>{TIMEZONE}</code>
+🉐 Vᴇʀsɪᴏɴ : <code>v{__version__} (Layer {layer})</code></b>"""""
 
     LOGO = """SHARK
                     FILTER
