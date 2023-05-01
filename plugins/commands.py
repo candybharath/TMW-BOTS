@@ -24,9 +24,9 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
              
-                ],[
+                ][
 
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
 
