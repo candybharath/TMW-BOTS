@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
              
                 ],[
 
@@ -32,7 +32,10 @@ async def start(client, message):
 
               
 
-                  ]]
+                  ],[
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
+             
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
@@ -48,7 +51,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
              
                 ],[
 
@@ -56,7 +59,10 @@ async def start(client, message):
 
               
 
-                  ]]
+                  ],[
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
+             
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -97,7 +103,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
              
                 ],[
 
@@ -105,7 +111,10 @@ async def start(client, message):
 
               
 
-                  ]]
+                  ],[
+                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
+             
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -155,11 +164,11 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/+yWXWqxdtftM1NGM9')
+                          InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TORZAN_MOVIE')
 
                      ],[
 
-                          InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/CL_Linkz')
+                          InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/TORZAN_Linkz')
                          ]
                         ]
                     )
@@ -175,9 +184,9 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                       InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/+yWXWqxdtftM1NGM9')
+                       InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TORZAN_MOVIE')
                      ],[
-                       InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/CL_Linkz')
+                       InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/TORZAN_Linkz')
                          ]
                         ]
                     )
@@ -292,9 +301,9 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                       InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/+yWXWqxdtftM1NGM9')
+                       InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TORZAN_MOVIE')
                      ],[
-                       InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/CL_Linkz')
+                       InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/TORZAN_Linkz')
                      ]
                     ]
                 )
@@ -344,9 +353,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/+yWXWqxdtftM1NGM9')
+              InlineKeyboardButton('𝐎𝐓𝐓 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TORZAN_MOVIE')
              ],[
-              InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/CL_Linkz')
+              InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞 𝐋𝐢𝐧𝐤𝐬', url='https://t.me/TORZAN_Linkz')
              ]
             ]
         )
@@ -838,7 +847,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :(\n\nGɪᴠᴇ ᴍᴇ ᴀ sʜᴏʀᴛʟɪɴᴋ ᴀɴᴅ ᴀᴘɪ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ !\n\nFᴏʀᴍᴀᴛ: <code>/shortlink shorturllink.in 95a8195c40d31e0c3b6baa68813fcecb1239f2e9</code></b>")
+        return await message.reply_text("<b>Cᴏᴍᴍᴀɴᴅ Iɴᴄᴏᴍᴘʟᴇᴛᴇ :(\n\nGɪᴠᴇ ᴍᴇ ᴀ sʜᴏʀᴛʟɪɴᴋ ᴀɴᴅ ᴀᴘɪ ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ !\n\nFᴏʀᴍᴀᴛ: <code>/shortlink SITE API</code></b>")
     reply = await message.reply_text("<b>Pʟᴇᴀsᴇ Wᴀɪᴛ...</b>")
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)
