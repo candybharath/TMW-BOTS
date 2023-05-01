@@ -26,7 +26,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
              
-                ][
+                ],[
 
                     InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
 
