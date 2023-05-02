@@ -1,17 +1,17 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @Torzan_Movie  IN MY ACCOUNT I HAVE 5LAKH+FILES ...!!!</b>"""
+му ηαмє Is <a href=https://t.me/{}>{}</a>, Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @Tσɾȥαɳ_Mσʋιҽ  IN MY ACCOUNT I HAVE 5LAKH+FILES ...!!!</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+ⓂⓎ ⒽⒺⓁⓅ ⒸⓄⓂⓂⒶⓃⒹⓈ.</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/FREEKZZ_BOTZ'>FREEKZZ_BOTZ</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>Heroku</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABOUT_TXT = """<b>⚙️ му ηαмє: {}
+⚙️ C͎R͎E͎A͎T͎O͎R͎: <a href='https://t.me/FREEKZZ_BOTZ'>FREEKZZ_BOTZ</a>
+⚙️ L͓̽ɪ͓̽ʙ͓̽ʀ͓̽ᴀ͓̽ʀ͓̽ʏ͓̽: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
+⚙️ 𝓛𝓐𝓝𝓖𝓤𝓐𝓖𝓔: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
+⚙️ 🎀  𝒟ᴀᴛᴀ𝐵ᴀ𝓈ᴇ  🎀: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
+⚙️ 乃ᴏᴛ 丂ᴇʀᴠᴇʀ: <a href='https://heroku.com/'>Heroku</a>
+⚙️ Ｂᴜɪʟᴅ Şᴛᴀᴛᴜร: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - YOU CAN GET THIS BOT AT JUST 20RS FROM OWNER.
@@ -102,14 +102,23 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-    LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
+    LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
+    
+<b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {a}(<code>{b}</code>)</b>
+<b>᚛› 𝐆 𝐈𝐃 ⪼ @{c}
+<b>᚛› 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 ⪼ {d}</b>
+<b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {e}</b>
 
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+By {f}
+"""
+
+    LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
+    
+<b>᚛› 𝐈𝐃 - <code>{}</code></b>
+<b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
+<b>᚛› 𝐔𝐍 - @{}</b>
+
+By @{} """
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
@@ -244,13 +253,13 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 • /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
 • /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
 
-    RESTART_TXT = """""
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+    RESTART_TXT = """
+<b><a href=https://t.me/{}>{}</a>, Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
 BOTMADE BY: ᖴᖇᗴᗴKᘔᘔ
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
-🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""""
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """SHARK
                     FILTER
