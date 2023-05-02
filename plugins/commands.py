@@ -22,20 +22,19 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('💉𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
-             
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
+                ],[
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
                 ],[
 
-                    InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+                    InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
+                    InlineKeyboardButton('🧲S̶U̶P̶P̶O̶R̶T🛡', url='https://t.me/THE_ALL_SUPPORT')
 
-              
-
-                  ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
-             
-                ]]
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2) # 😢 https://github.com/EvamariaTG/EvaMaria/blob/master/plugins/p_ttishow.py#L17 😬 wait a bit, before checking.
@@ -49,20 +48,19 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('💉𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
-             
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
+                ],[
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
                 ],[
 
-                    InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+                    InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
+                    InlineKeyboardButton('🧲S̶U̶P̶P̶O̶R̶T🛡', url='https://t.me/THE_ALL_SUPPORT')
 
-              
-
-                  ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
-             
-                ]]
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -80,7 +78,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
+                    "🔭 J͟O͟I͟N͟ O͟U͟R͟ C͟H͟A͟N͟N͟E͟L͟ T͟O͟ U͟S͟E͟ O͟U͟R͟ B͟O͟T͟ 🔭", url=invite_link.invite_link
                 )
             ]
         ]
@@ -94,27 +92,26 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ sᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ...\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '↻ Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nTʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇs...**",
+            text="**🇾 ᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ 🇧 ᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ 🇸 ᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ...\n\n🇮 ғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ'🔭 J͟O͟I͟N͟ O͟U͟R͟ C͟H͟A͟N͟N͟E͟L͟ T͟O͟ U͟S͟E͟ O͟U͟R͟ B͟O͟T͟ 🔭' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴏᴜ🇷  ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '↻ Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nTʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇs...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('💉𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
-             
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
+                ],[
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
                 ],[
 
-                    InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+                    InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
+                    InlineKeyboardButton('🧲S̶U̶P̶P̶O̶R̶T🛡', url='https://t.me/THE_ALL_SUPPORT')
 
-              
-
-                  ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 Channel', url='https://t.me/+oaZfXeezlGIyZDE1')
-             
-                ]]
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
