@@ -978,20 +978,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🔮𝐀𝐝𝐝 𝐌𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🔮', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('💉𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/TORZAN_MOVIE_GP1')
-             
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
+                    InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
+                ],[
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
                 ],[
 
-                    InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+                    InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
+                    InlineKeyboardButton('🧲S̶U̶P̶P̶O̶R̶T🛡', url='https://t.me/THE_ALL_SUPPORT')
 
-              
-
-                  ],[
-                    InlineKeyboardButton('TORZAN_LINKZ', url='https://t.me/TORZAN_LINKZ')
-             
-                ]]
+                  ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1008,7 +1007,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('Mᴀɴᴜᴀʟ FIʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Aᴜᴛᴏ FIʟᴛᴇʀ', callback_data='autofilter')
         ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help'),
