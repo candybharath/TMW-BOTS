@@ -27,8 +27,8 @@ async def start(client, message):
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
                 ],[
-                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
-                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄R🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄', url='https://t.me/+oaZfXeezlGIyZDE1')
                 ],[
 
                     InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
@@ -53,8 +53,8 @@ async def start(client, message):
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
                 ],[
-                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
-                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄R🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄', url='https://t.me/+oaZfXeezlGIyZDE1')
                 ],[
 
                     InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
@@ -104,8 +104,8 @@ async def start(client, message):
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
                 ],[
-                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄�🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
-                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄�', url='https://t.me/+SOj_2ZusA205YTA1')
+                    InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄R🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
+                    InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄', url='https://t.me/+oaZfXeezlGIyZDE1')
                 ],[
 
                     InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
