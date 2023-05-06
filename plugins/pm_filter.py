@@ -991,20 +991,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[
                     InlineKeyboardButton('💉𝐀𝐃𝐃 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
+                  ],[
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 ℂℍ𝔸ℕℕ𝔼�', url='https://t.me/TORZAN_MOVIE'),
                     InlineKeyboardButton('𝕄𝔸𝕀ℕ 🧬 𝔾ℝ𝕆𝕌ℙ', url='https://t.me/TORZAN_MOVIE_GP1')
-                ],[
+                  ],[
                     InlineKeyboardButton('𝐋𝐎𝐂𝐊𝐄R🏺', url='https://t.me/+SOj_2ZusA205YTA1'),
                     InlineKeyboardButton('🏺𝐍𝐄𝐖 𝐌𝐎𝐕𝐈𝐄', url='https://t.me/+oaZfXeezlGIyZDE1')
-                ],[
-
+                  ],[
                     InlineKeyboardButton('🛡𝐀𝐛𝐨𝐮𝐭🧲', callback_data='about'),
                     InlineKeyboardButton('🧲S̶U̶P̶P̶O̶R̶T🛡', url='https://t.me/THE_ALL_SUPPORT')
-
-                  ]
+                  ],[
                     InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
-                ]]
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
