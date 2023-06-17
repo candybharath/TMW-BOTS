@@ -82,7 +82,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 
-IS_VERIFY    = bool(environ.get('IS_VERIFY', True))
+IS_VERIFY    = bool(environ.get('IS_VERIFY', False))
 
 SHORTLINK_URL  = environ.get('SHORTLINK_URL', 'dalink.in')
  
