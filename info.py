@@ -82,13 +82,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 
-IS_VERIFY    =    bool ( environ . get ( 'IS_VERIFY' , False ))
+IS_VERIFY    = bool(environ.get('IS_VERIFY', False))
 
-SHORTLINK_URL  =  environ.get ( 'SHORTLINK_URL' , '  ' )
+SHORTLINK_URL  = environ.get('SHORTLINK_URL', 'dalink.in')
+ 
+SHORTLINK_API  =  environ.get('SHORTLINK_API' , '51f46854e61fd5f8d4200b31ce65a56a095181d5')
 
-SHORTLINK_API  =  environ.get ( 'SHORTLINK_API' , '  ' )
-
-IS_SHORTLINK     =     bool ( environ . get ( 'IS_SHORTLINK' , False ))
+IS_SHORTLINK     = bool(environ.get('IS_SHORTLINK', True))
 
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
